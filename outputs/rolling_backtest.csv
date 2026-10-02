@@ -1,0 +1,10 @@
+,,MAE,RMSE,MAPE_%
+May-Jun,Plain LightGBM,52.749,77.1508,2.1989
+May-Jun,Hybrid,39.122,58.1917,1.6433
+May-Jun,City-aware hybrid,38.4156,57.5381,1.6065
+Jul-Aug,Plain LightGBM,48.4489,68.0905,2.1232
+Jul-Aug,Hybrid,43.9821,62.7141,1.9284
+Jul-Aug,City-aware hybrid,43.3711,61.5967,1.8976
+Sep-Oct,Plain LightGBM,43.5169,63.0363,1.884
+Sep-Oct,Hybrid,37.6175,54.0894,1.6719
+Sep-Oct,City-aware hybrid,35.9416,51.7621,1.5967

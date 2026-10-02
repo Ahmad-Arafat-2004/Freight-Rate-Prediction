@@ -1,0 +1,21 @@
+,,,MAE,RMSE,MAPE_%
+time_holdout,Baseline: rpm table,all,78.9672,107.49,3.6043
+time_holdout,Plain LightGBM,all,43.5169,63.0363,1.884
+time_holdout,Hybrid,all,37.6175,54.0894,1.6719
+time_holdout,Hybrid + city IDs,all,35.9416,51.7621,1.5967
+time_holdout,City-aware hybrid,all,35.9416,51.7621,1.5967
+unseen_city_holdout,Baseline: rpm table,all,78.9139,107.3752,3.6012
+unseen_city_holdout,Baseline: rpm table,seen cities,77.8221,106.249,3.5994
+unseen_city_holdout,Baseline: rpm table,unseen cities,81.9561,110.4528,3.6064
+unseen_city_holdout,Plain LightGBM,all,45.495,66.2891,1.9723
+unseen_city_holdout,Plain LightGBM,seen cities,43.7858,63.2664,1.9244
+unseen_city_holdout,Plain LightGBM,unseen cities,50.2575,74.0637,2.1057
+unseen_city_holdout,Hybrid,all,39.0828,56.9072,1.7427
+unseen_city_holdout,Hybrid,seen cities,37.522,54.0642,1.6918
+unseen_city_holdout,Hybrid,unseen cities,43.4319,64.1679,1.8844
+unseen_city_holdout,Hybrid + city IDs,all,39.5158,56.8027,1.7793
+unseen_city_holdout,Hybrid + city IDs,seen cities,35.9152,51.6596,1.6168
+unseen_city_holdout,Hybrid + city IDs,unseen cities,49.5489,69.1442,2.232
+unseen_city_holdout,City-aware hybrid,all,37.9004,55.239,1.6874
+unseen_city_holdout,City-aware hybrid,seen cities,35.9152,51.6596,1.6168
+unseen_city_holdout,City-aware hybrid,unseen cities,43.4319,64.1679,1.8844
