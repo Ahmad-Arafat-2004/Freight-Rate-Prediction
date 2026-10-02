@@ -68,6 +68,7 @@ python -m src.backtest   # optional: rolling backtest -> outputs/rolling_backtes
 ## Repository structure
 
 ```
+data/
 src/
   config.py      paths and constants
   data.py        loading, label-outlier detection, cleaning
